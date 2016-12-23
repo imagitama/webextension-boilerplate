@@ -12,9 +12,10 @@ Boilerplate for a WebExtension.
 ## Common Permissions
 
 * storage
-* http://*/*
+* *://&#42;/&#42;
 * notifications
 
 ## Notes
 
-This WebExtension has been written for WebKit browsers in mind. All uses of the `browser` global variable are actually `chrome`.
+This WebExtension has been written for WebKit browsers in mind. All uses of the `browser` global variable are actually `chrome`. 
+In future there will be some browser sniffing to detect Firefox and IE browsers.
